@@ -1,4 +1,4 @@
-import 'package:e_commerce_app/products_dummy_api.dart';
+import 'package:e_commerce_app/product_Data.dart';
 import 'package:e_commerce_app/screens/Widgets/top_bar_tile.dart';
 import 'package:e_commerce_app/screens/orders_screen/track_order_screen.dart';
 import 'package:e_commerce_app/styles/colors.dart';
@@ -69,7 +69,7 @@ class OrderScreen extends StatelessWidget {
                                           borderRadius:
                                               BorderRadius.circular(8),
                                           child: Image.asset(
-                                            "assets/driver.jpg",
+                                            "assets/profile.png",
                                             fit: BoxFit.fitWidth,
                                           ),
                                         ),
@@ -99,7 +99,7 @@ class OrderScreen extends StatelessWidget {
                                       ),
                                       const Positioned(
                                         bottom: 0,
-                                        child: Text("Meet Our Driver, Tom"),
+                                        child: Text("Meet Our Driver, Jerry"),
                                       ),
                                     ],
                                   ),

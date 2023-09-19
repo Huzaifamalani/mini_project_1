@@ -5,7 +5,7 @@ import 'package:e_commerce_app/styles/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
 
-import '../../products_dummy_api.dart';
+import 'package:e_commerce_app/product_Data.dart';
 import '../../styles/colors.dart';
 // import '../Widgets/products_card_widget.dart';
 

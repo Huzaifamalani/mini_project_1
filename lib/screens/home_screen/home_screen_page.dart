@@ -1,8 +1,8 @@
+import 'package:e_commerce_app/product_Data.dart';
 import 'package:e_commerce_app/screens/add_to_cart.dart/cart_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-import '../../products_dummy_api.dart';
 import '../../styles/colors.dart';
 import '../../styles/text_styles.dart';
 // import '../Widgets/products_card_widget.dart';
@@ -92,7 +92,7 @@ class _HomeScreenPageViewState extends State<HomeScreenPageView> {
                   itemBuilder: (context, index) {
                     return GestureDetector(
                       onTap: () {
-                        print("hii hii $index");
+                        print("hi $index");
 
                         Navigator.push(
                           context,

@@ -1,7 +1,7 @@
 import 'package:e_commerce_app/screens/onboard_screens/widget/cust_text_botton.dart';
 import 'package:flutter/material.dart';
 
-import '../../products_dummy_api.dart';
+import 'package:e_commerce_app/product_Data.dart';
 import '../../styles/colors.dart';
 import '../../styles/text_styles.dart';
 import '../Widgets/top_bar_tile.dart';

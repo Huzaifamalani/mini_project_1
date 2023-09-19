@@ -47,7 +47,7 @@ class TrackOrderScreen extends StatelessWidget {
                                     color: CustColors.black45),
                               ]),
                           child: CircleAvatar(
-                            backgroundImage: AssetImage("assets/driver.jpg"),
+                            backgroundImage: AssetImage("assets/profile.png"),
                             radius: 30,
                           ),
                         ),
@@ -57,7 +57,7 @@ class TrackOrderScreen extends StatelessWidget {
                               color: CustColors.black45),
                         ),
                         subtitle: Text(
-                          "MR CAT",
+                          "MR Jerry",
                           style: Body1.SemiBold16px,
                         ),
                         trailing: CircleAvatar(
