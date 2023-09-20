@@ -87,9 +87,9 @@ class _ProductScreenState extends State<ProductScreen> {
                             child: CircleAvatar(
                               backgroundColor:
                                   const Color.fromARGB(0, 29, 52, 71),
-                              foregroundImage: NetworkImage(
+                              foregroundImage: AssetImage(
                                   "${prodsImgs[widget.indexForItem][index]}",
-                                  scale: 0.1),
+                                  ),
                             ),
                           ),
                         );

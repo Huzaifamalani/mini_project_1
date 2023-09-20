@@ -25,7 +25,7 @@ class AppColors {
 class CustomStyle {
   static TextStyle headerBold = const TextStyle(
     // For 30 Size
-    fontSize: 30,
+    fontSize: 25,
     fontWeight: FontWeight.bold,
     color: Color(0xffFAFBFD),
   );

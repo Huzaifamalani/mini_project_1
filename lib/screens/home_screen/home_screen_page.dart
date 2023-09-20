@@ -115,7 +115,7 @@ class _HomeScreenPageViewState extends State<HomeScreenPageView> {
                               child: ClipRRect(
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(16)),
-                                child: Image.network(
+                                child: Image.asset(
                                   "${products[index]["thumbnail"]}",
                                   height: 150,
                                   width: double.infinity,

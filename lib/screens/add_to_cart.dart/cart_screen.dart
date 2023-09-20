@@ -139,7 +139,7 @@ class _AddToCartScreenState extends State<AddToCartScreen> {
                           return ListTile(
                             leading: CircleAvatar(
                               radius: 30,
-                              backgroundImage: NetworkImage(
+                              backgroundImage: AssetImage(
                                   "${cartItems[index]['thumbnail']}"),
                             ),
                             title: Text("${cartItems[index]['title']}"),

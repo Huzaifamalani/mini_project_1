@@ -14,7 +14,7 @@ class _PaymentSucessState extends State<PaymentSucess> {
   @override
   void initState() {
     Future.delayed(
-      Duration(seconds: 2),
+      Duration(seconds: 3),
       () {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(
@@ -36,13 +36,13 @@ class _PaymentSucessState extends State<PaymentSucess> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Image.asset(
-              "assets/onboardImages/payment_success.png",
+              "assets/onboardImages/check.png",
               width: double.infinity,
             ),
             Text(
               "Payment Successful",
               style: Heading1.Medium30px.copyWith(
-                color: CustColors.darkYellow,
+                color: CustColors.darkBlue,
               ),
             ),
           ],
